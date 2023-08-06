@@ -1,0 +1,30 @@
+
+
+
+
+Implementation steps:
+
+1) When you click on a cell: X appears, then O appears, then X appears again and so on
+1-1) Try to just make that X appears if you click on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTIONS:
+1) How does the game work?
+1-1) You have to have three X's or three O's in a row to win the game. If none got this, then it's a draw. 
+
+
+
+
