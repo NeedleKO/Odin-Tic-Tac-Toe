@@ -4,34 +4,58 @@
     box-sizing: border-box;
 }
 
-.title {
-    
+header {
+    border-bottom: 1px solid black;
 }
 
-.interface_container {
+.anouncements {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
 }
 
-.meta_cell_container {
-    width: 100wh;
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem;
-}
-
-.cell_container {
+.board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    border: 1px solid black;
     width: 500px;
     height: 500px;
 }
 
-
 .cell {
     border: 1px solid black;
-    
+    cursor: pointer;
 }
 
+.cell:hover {
+    background-color: rgb(236, 245, 245);
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.restartBtn {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cel-content {
+    width: 100px;
+    height: 100px;
+}
